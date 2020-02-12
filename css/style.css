@@ -1,5 +1,5 @@
 .jumbotron{
-   background: url(../img/union1.png);
+   background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0)), url(../img/img-02.jpg) ;
    background-size: cover;
    height: 500px;
 }
