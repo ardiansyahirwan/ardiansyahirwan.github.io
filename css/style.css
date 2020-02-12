@@ -1,3 +1,15 @@
+.navbar-brand {
+   font-family: 'Turret Road', cursive;
+   font-weight: bold;
+   font-size: 32px;
+}
+
+.navbar-nav {
+   font-family: 'Nunito Sans', sans-serif;
+   font-weight: 200;
+   font-size: 25px;
+}
+
 .jumbotron{
    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0)), url(../img/img-02.jpg) ;
    background-size: cover;
@@ -8,29 +20,6 @@
    height: 250px;
    width: 250px;
    border: white solid 2px;
+   position: relative;
+   margin-top: 50px;
 }
-
-
-.display-4 {
-   color: #A1EEF6;
-   font-family: nunito, sans-serif;
-   font-size: 58px;
-   font-weight: bold;
-}
-
-.display-4 span {
-   font-weight: 5;
-}
-
-.clear {
-   clear: both;
-}
-
-.lead{
-   color: #A1EEF6;
-   font-family: nunito, sans-serif;
-   font-size: 30px;
-   font-weight: 5;
-   padding-right: 100px;
-}
-
