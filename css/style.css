@@ -16,8 +16,10 @@
    margin-left: 15px;
 }
 
+/* jumbotron */
+
 .jumbotron{
-   background-image: linear-gradient(to top, rgba(0,0,0,0.1), rgba(0,0,0)), url(../img/img-02.jpg) ;
+   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.37), rgba(0,0,0,1)), url(../img/img-02.jpg) ;
    background-size: cover;
    height: 550px;
    margin-top: -75px;
@@ -37,3 +39,19 @@
    background-color: linear-gradient(to left, rgb(32, 2, 2) rgb(129, 27, 27));
    border-radius: 25px;
 }
+
+/* profil */
+.propil {
+   text-align: center;
+   color: white;
+   font-family: 'Arial', sans-serif;
+   margin-top: 20px;
+}
+
+.propil img {
+   height: 300px;
+   width: 300px;
+   border: solid white 5px;
+}
+
+
