@@ -25,13 +25,13 @@ body {
 .jumbotron{
    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.37), rgba(0,0,0,1)), url(../img/img-02.jpg) ;
    background-size: cover;
-   height: 550px;
+   height: 600px;
    margin-top: -75px;
 }
 
 .display-4 {
-   margin-top: 40px;
    font-size: 45px;
+   margin-top: 70px;
 }
 
 .display-4  span{
@@ -49,7 +49,7 @@ body {
 .propil {
    text-align: center;
    color: white;
-   margin-top: 70px;
+   margin-top: 120px;
    font-size: 12px;
 }
 
@@ -81,4 +81,38 @@ a {
 .menu img {
    width: 70px;
    height: 70px;
+}
+
+
+
+
+
+
+/* Mobile Version */
+
+@media only screen and (max-width :900px ) {
+   .navbar {
+      background-color: rgb(17, 11, 11);
+   }
+
+   .jumbotron {
+      height: 400px;
+   }
+
+   .display-4 {
+      font-size: 25px;
+   }
+
+   .propil {
+      margin-bottom: 50px;
+   }
+
+   .propil img {
+      width: 100px;
+      height: 100px;
+   }
+
+   .menu {
+      margin-top: 5px;;
+   }
 }
