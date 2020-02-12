@@ -17,16 +17,23 @@
 }
 
 .jumbotron{
-   background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0)), url(../img/img-02.jpg) ;
+   background-image: linear-gradient(to top, rgba(0,0,0,0.1), rgba(0,0,0)), url(../img/img-02.jpg) ;
    background-size: cover;
    height: 550px;
    margin-top: -75px;
 }
 
-.rounded-circle {
-   height: 250px;
-   width: 250px;
-   border: white solid 2px;
-   position: relative;
-   margin-top: 50px;
+.display-4 {
+   margin-top: 100px;
+}
+
+.display-4  span{
+   font-weight: bold;
+   font-family: 'Arial',sans-serif;
+}
+
+.merah {
+   text-transform: uppercase;
+   background-color: linear-gradient(to left, rgb(32, 2, 2) rgb(129, 27, 27));
+   border-radius: 25px;
 }
