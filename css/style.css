@@ -1,3 +1,7 @@
+body {
+   font-family: 'Nunito', sans-serif;
+}
+
 .navbar-brand {
    font-family: 'Turret Road', cursive;
    font-weight: bold;
@@ -26,7 +30,7 @@
 }
 
 .display-4 {
-   margin-top: 100px;
+   margin-top: 60px;
 }
 
 .display-4  span{
@@ -44,14 +48,23 @@
 .propil {
    text-align: center;
    color: white;
-   font-family: 'Arial', sans-serif;
-   margin-top: 20px;
+   margin-top: 50px;
+   font-size: 12px;
 }
 
 .propil img {
-   height: 300px;
-   width: 300px;
+   height: 220px;
+   width: 220px;
    border: solid white 5px;
+}
+
+.propil > h5 {
+   font-size: 30px;
+   font-weight: 5px;
+}
+
+a {
+   color: white;
 }
 
 
