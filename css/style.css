@@ -3,3 +3,34 @@
    background-size: cover;
    height: 500px;
 }
+
+.rounded-circle {
+   height: 250px;
+   width: 250px;
+   border: white solid 2px;
+}
+
+
+.display-4 {
+   color: #A1EEF6;
+   font-family: nunito, sans-serif;
+   font-size: 58px;
+   font-weight: bold;
+}
+
+.display-4 span {
+   font-weight: 5;
+}
+
+.clear {
+   clear: both;
+}
+
+.lead{
+   color: #A1EEF6;
+   font-family: nunito, sans-serif;
+   font-size: 30px;
+   font-weight: 5;
+   padding-right: 100px;
+}
+
