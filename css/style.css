@@ -30,7 +30,8 @@ body {
 }
 
 .display-4 {
-   margin-top: 60px;
+   margin-top: 40px;
+   font-size: 45px;
 }
 
 .display-4  span{
@@ -48,7 +49,7 @@ body {
 .propil {
    text-align: center;
    color: white;
-   margin-top: 50px;
+   margin-top: 70px;
    font-size: 12px;
 }
 
