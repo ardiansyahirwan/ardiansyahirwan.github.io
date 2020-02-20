@@ -35,7 +35,7 @@ body {
 }
 
 .display-4 {
-   font-size: 84px;
+   font-size: 80px;
    font-family: 'Nunito sans',sans-serif;
    color: #D1C2C2;
    font-weight: 1000;
@@ -55,7 +55,7 @@ body {
 .btn-transparan {
    position: relative;
    z-index: 1;
-   border: solid white 3px;
+   border: solid #F9F4F4 2px;
    border-radius: 28px;
    width: 240px;
    height: 58px;
@@ -63,6 +63,26 @@ body {
    font-size: 26px;
    color: #D1C2C2;
    margin-left: 20px;
+}
+
+.btn:hover {
+   background-color: #5D5555;
+   color: #D1C2C2;
+   border: none;
+}
+
+.text, a {
+   position: relative;
+   z-index: 1;
+   color: #F8F5F5;
+   font-weight: bold;
+}
+
+a:hover {
+   font-size: 20px;
+   font-weight: bold;
+   color: #F8F5F5;
+   text-decoration: none;
 }
 
 .layer {
