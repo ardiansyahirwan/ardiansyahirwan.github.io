@@ -1,5 +1,5 @@
 body {
-   font-family: 'Nunito', sans-serif;
+   font-family: 'Raleway', sans-serif;
    position: relative;
 }
 
@@ -12,19 +12,17 @@ body {
 }
 
 .navbar-nav {
-   font-family: 'Nunito Sans', sans-serif;
-   font-weight: 400;
-   font-size: 20px;
+   font-family: 'raleway', sans-serif;
+   font-size: 18px;
    color: whitesmoke;
+   text-transform: uppercase;
+   font-weight: bold;
+   z-index: 2;
 }
 
 .nav-item {
    margin-left: 30px;
-   z-index: 2;
-   text-transform: uppercase;
-   font-weight: bold;
 }
-
 /* jumbotron */
 
 .jumbotron{
@@ -95,8 +93,42 @@ body {
    opacity: 100%;
 }
 
+/* Main content */
+
 .container-fluid {
    height: 1900px;
    background: linear-gradient(to bottom,#000000   ,#15ADE6);
    margin-top: -32px;
+}
+
+.rounded-circle {
+width:200px ;
+height:200px ;
+}
+
+.nama, .job{
+  color : #F6F6F6;
+  font-weight: semibold;
+  font-size: 24px;
+  font-family: 'Nunito sans',sans-serif;
+}
+
+.job {
+   font-weight: extralight;
+}
+
+.hello {
+   font-family: 'raleway',sans-serif;
+   font-weight: semibold;
+   font-size: 54px;
+   color: #F6F6F6;
+}
+
+hr {
+   border: solid white 3px;
+   rotate: vertical;
+}
+
+.biodata {
+   color: #F6F6F6;
 }
