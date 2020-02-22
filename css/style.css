@@ -126,9 +126,13 @@ height:200px ;
 
 hr {
    border: solid white 3px;
+   width: 243px;
    rotate: vertical;
 }
 
 .biodata {
    color: #F6F6F6;
+   text-align: justify;
+   font-size: 21px;
+
 }
