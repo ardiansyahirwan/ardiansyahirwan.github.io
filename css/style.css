@@ -101,6 +101,10 @@ body {
    margin-top: -32px;
 }
 
+#profil, #kotak {
+   height: 650px;
+}
+
 .rounded-circle {
 width:180px ;
 height:180px ;
@@ -136,4 +140,41 @@ hr {
    text-align: justify;
    font-size: 18px;
 
+}
+
+.kotak {
+   width: 352px;
+   height: 364px;
+   background: linear-gradient( to bottom, #1C9C9C, rgba(29,156,156,0) );
+   margin-top: 100px;
+}
+
+.kotak img {
+   height:97px ;
+   width:97px ;
+}
+
+.kotak h3 {
+   color: #292626;
+   font-size: 34px;
+   font-weight: black;
+   font-family: 'Nunito sans', sans-serif;
+}
+
+.kotak p {
+   color: #211313;
+   font-family: 'raleway',sans-serif;
+   font-size: 18px;
+}
+
+.biru {
+   background: linear-gradient(to right, #0CE9F1,rgba(47,156,168,1));
+   border: none;
+   color: black ;
+}
+
+.biru:hover {
+   background: #0CE9F1;
+   color: black ;
+   border: none;
 }
