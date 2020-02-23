@@ -102,8 +102,8 @@ body {
 }
 
 .rounded-circle {
-width:200px ;
-height:200px ;
+width:180px ;
+height:180px ;
 }
 
 .nama, .job{
@@ -125,14 +125,15 @@ height:200px ;
 }
 
 hr {
-   border: solid white 3px;
-   width: 243px;
+   border: solid white 2px;
+   width: 0px;
+   height: 180px;
    rotate: vertical;
 }
 
 .biodata {
    color: #F6F6F6;
    text-align: justify;
-   font-size: 21px;
+   font-size: 18px;
 
 }
