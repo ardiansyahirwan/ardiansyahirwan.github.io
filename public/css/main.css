@@ -507,6 +507,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(22 163 74 / var(--tw-bg-opacity)) !important;
 }
 
+.active {
+  display: block !important;
+}
+
+.section {
+  display: none;
+}
+
+.\!section {
+  display: none;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -804,6 +816,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .transform-none {
   transform: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .touch-auto {
@@ -1825,6 +1841,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -1891,6 +1911,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .stacked-fractions {
   --tw-numeric-fraction: stacked-fractions;
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+}
+
+.text-gray-100 {
+  --tw-text-opacity: 1;
+  color: rgb(243 244 246 / var(--tw-text-opacity));
 }
 
 .text-gray-300 {
@@ -2282,11 +2307,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .focus\:hover\:text-center:hover:focus {
   text-align: center;
-}
-
-.active\:bg-green-600:active {
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 640px) {

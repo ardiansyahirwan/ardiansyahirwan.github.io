@@ -6,4 +6,12 @@
    .active-btn {
       @apply bg-green-600 !important;
    }
+
+   .active {
+      @apply block !important;
+   }
+
+   .section {
+      @apply hidden ;
+   }
 }
