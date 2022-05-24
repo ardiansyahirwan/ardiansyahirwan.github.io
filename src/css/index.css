@@ -4,11 +4,12 @@
 
 @layer components {
    .active-btn {
-      @apply bg-green-600 !important;
+      @apply bg-neon-pink !important;
    }
 
    .active {
       @apply block !important;
+      @apply animate-scale-anim;
    }
 
    .section {
