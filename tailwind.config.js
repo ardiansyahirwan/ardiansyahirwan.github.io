@@ -17,6 +17,9 @@ module.exports = {
           pink:'#A709D0',
         },
       },
+      fontFamily:{
+        'sans':['Montserrat','sans-serif'],
+      },
     },
   },
   plugins: [],
