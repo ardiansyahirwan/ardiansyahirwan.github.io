@@ -16,11 +16,35 @@
    .section {
       @apply hidden ;
    }
+
+   .title {
+      @apply text-center;
+   }
+
+   .text-content {
+      @apply relative;
+      @apply uppercase;
+      @apply font-bold;
+   }
+
+   .text-bg {
+      @apply absolute;
+      @apply text-neon-pink/100;
+      @apply -z-10;
+      @apply font-extrabold;
+      @apply inset-x-0;
+      @apply top-1/2;
+   }
 }
 
 @layer utilities {
    .neuro-effect {
       box-shadow: -6px 6px 12px #0a0f1b,
                   6px -6px 12px #141f39;
+   }
+
+   .hexagon-clip {
+      -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+      clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
    }
 }
