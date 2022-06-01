@@ -19,10 +19,10 @@
 
    .title {
       @apply text-center;
+      @apply relative;
    }
 
    .text-content {
-      @apply relative;
       @apply uppercase;
       @apply font-bold;
    }
