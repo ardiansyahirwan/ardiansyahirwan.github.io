@@ -47,4 +47,16 @@
       -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
       clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
    }
+
+   .portfolio-layer {
+      @apply absolute;
+      @apply z-10;
+      @apply bg-neon-pink/70;
+      @apply w-full;
+      @apply h-64;
+      @apply rounded-2xl;
+      @apply transition-all;
+      @apply duration-1000;
+      @apply ease-in-out;
+   }
 }
