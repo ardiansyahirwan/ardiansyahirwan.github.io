@@ -369,23 +369,57 @@
          <!-- end title -->
          
          <!-- contact main content -->
-         <div class="flex flex-col md:flex-row md:py-12 md:gap-12 gap-2">
+         <div class="flex flex-col md:flex-row md:py-12 gap-12">
 
             <!-- contact left side -->
             <div class="left-side flex flex-col flex-1">
-               <h2 class="font-bold md:text-xl capitalize text-slate-50 mb-3">contact</h2>
-               <p class="text-sm md:text-base text-gray-400 text-justify md:leading-loose mb-4">
+               <h2 class="font-bold md:text-xl capitalize text-slate-50 mb-3">Get in touch</h2>
+               <p class="text-sm md:text-base text-gray-400 text-justify md:leading-loose mb-8">
                   You can take closer with me, text me if you want to me to collab about project or something.
                </p>
+               <!-- contact-icon -->
+               <div class="grid grid-flow-row gap-8">
+                  <div class="contact-icon text-center p-5 border-[1px] border-solid border-gray-700 rounded-lg transition-all duration-[.2s] ease-in-out hover:-translate-y-1 hover:border-0 hover:bg-slate-800">
+                     <i class="fa-solid fa-location-dot">icon</i>
+                     <p class="text-sm capitalize">Depok, West Java - Indonesia</p>
+                  </div>
+                  <div class="contact-icon text-center p-5 border-[1px] border-solid border-gray-700 rounded-lg transition-all duration-[.2s] ease-in-out hover:-translate-y-1 hover:border-0 hover:bg-slate-800">
+                     <i class="fa-solid fa-envelope">icon</i>
+                     <p class="text-sm">ardiansyahirwan923@gmail.com</p>
+                  </div>
+                  <div class="contact-icon text-center p-5 border-[1px] border-solid border-gray-700 rounded-lg transition-all duration-[.2s] ease-in-out hover:-translate-y-1 hover:border-0 hover:bg-slate-800">
+                     <i class="fa-brands fa-github">icon</i>
+                     <p class="text-sm">ardiansyahirwan</p>
+                  </div>
+               </div>
+               <!-- end contact-icon -->
             </div>
             <!-- end contact left side -->
 
             <!-- contact right side -->
             <div class="left-side flex flex-col flex-[1.5]">
-               <h2 class="font-bold md:text-xl capitalize text-slate-50 mb-3">contact me Here</h2>
-               <p class="text-sm md:text-base text-gray-400 text-justify md:leading-loose mb-4">
-                  You can take closer with me, text me if you want to me to collab about project or something.
-               </p>
+              <!-- form -->
+               <form action="#" method="post" class="grid grid-flow-row md:grid-cols-2 gap-8 p-5 md:p-8 bg-slate-800 rounded-lg">
+                  <div class="input-group">
+                     <div class="input-form flex flex-col mb-4">
+                        <label for="name" class="capitalize text-[13px] mb-2">your name</label>
+                        <input type="text" class="text-sm bg-slate-700 rounded-lg p-3 border-2 border-slate-800 hover:border-neon-blue/60 focus:bg-slate-800" name="name" placeholder="name">
+                     </div>
+                     <div class="input-form flex flex-col mb-4">
+                        <label for="email" class="capitalize text-[13px] mb-2">email</label>
+                        <input type="text" class="text-sm bg-slate-700 rounded-lg p-3 border-2 border-slate-800 hover:border-neon-blue/60 focus:bg-slate-800" name="email" placeholder="email">
+                     </div>
+                     <div class="input-form flex flex-col mb-4">
+                        <label for="subject" class="capitalize text-[13px] mb-2">subject</label>
+                        <input type="text" class="text-sm bg-slate-700 rounded-lg p-3 border-2 border-slate-800 hover:border-neon-blue/60 focus:bg-slate-800" name="subject" placeholder="subject">
+                     </div>
+                  </div>
+                  <div class="text-area-form flex flex-col">
+                     <label for="message" class="capitalize text-[13px] mb-2">your message</label>
+                     <textarea name="message" cols="30" rows="15" class="text-sm bg-slate-700 rounded-lg p-3 border-2 border-slate-800 hover:border-neon-blue/60 focus:bg-slate-800" placeholder="message"></textarea>
+                  </div>
+               </form>
+              <!-- end form -->
             </div>
             <!-- end contact right side -->
 
